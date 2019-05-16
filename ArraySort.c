@@ -88,13 +88,7 @@ int main(void)
             return EXIT_FAILURE;
         }
     }
-
-    printf("=== Array before Sorting = ");
-    printArray(a, array_size);
-
     inPlaceSort(a, array_size);
-
-    printf("=== Array after Sorting = ");
     printArray(a, array_size);
 
 }
