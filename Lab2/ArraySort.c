@@ -3,6 +3,7 @@
  * ArraySort.c
  * 
  * Created by Jean-Philippe Legault
+ * Modified by Graham Hill and Vasili Osipau
  * 
  * Your task is to implement in place sorting using the two available functions
  * swapAdjacent, and compareAdjacent.
@@ -73,7 +74,7 @@ int main(void)
     int a[array_size];
 
     /**********************
-     *  
+     *  Authored by Graham and Vasili
      * it should parse user input with scanf to fill the array with values
      **********************/
 
