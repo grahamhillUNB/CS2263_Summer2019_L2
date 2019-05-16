@@ -77,7 +77,6 @@ int main(void)
      * it should parse user input with scanf to fill the array with values
      **********************/
 
-    printf("Please input ints for array: \n");
     int temp = 0;
     for(int count = 0; count < array_size; count++){
         if(scanf("%d", &temp) == 1){
@@ -88,6 +87,7 @@ int main(void)
             return EXIT_FAILURE;
         }
     }
+    printArray(a, array_size);
     inPlaceSort(a, array_size);
     printArray(a, array_size);
 
